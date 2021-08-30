@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    background: rgb(41,41,41);
+}
+h1{
+    font-weight: 300;
+    font-size: 50px;
+    color: snow;
+    text-align: center;
+    margin-top: 5vh;
+}
+#slider{
+    width: 80vw; 
+    height: 50vh;
+    position: relative;
+    margin: 15vh auto;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0, .6), 0 0 30px rgba(0,0,0, .3);
+}
+#inner-slider{
+    width: 700%; /* 5 img + 2clone, 1img fit 100% of the container, 100*7 = 700% */
+    height: 100%;
+    display: flex;
+}
+.slider-img{
+    width: 80vw; /*Same width as the slider to fit all the container*/
+    height: 100%;
+}
